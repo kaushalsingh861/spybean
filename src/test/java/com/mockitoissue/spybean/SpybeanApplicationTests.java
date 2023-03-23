@@ -7,7 +7,6 @@ import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-@ActiveProfiles(value = {"test","heavyResource"})
 public abstract class SpybeanApplicationTests {
 
 
